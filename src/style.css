@@ -1,0 +1,11 @@
+#root{
+    background-color: pink;
+    text-align: center;
+    font-size:45px;
+}
+p{
+    background-color: paleturquoise
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+}

@@ -1,1 +1,20 @@
-document.getElementById("cifrar").addEventListener("click")//,poner funcion de lo que va hacer el boton
+const textoCifrado = document.getElementById('text1');
+const textCifrado1= document.getElementById("text-cipher");
+textCifrado1.innerHTML = textoCifrado.value;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//const textoDecifrado= document.getElementById("text2");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    m

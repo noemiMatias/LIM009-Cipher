@@ -5,10 +5,14 @@
 }
 p{
     background-color: paleturquoise;
-    text-align: center;
-    font-size: 37px;
+    font-size: 20px;
     font-weight: bold;
 }
 .logo{
     
+}
+
+.form-div {
+    margin-top: 21px;
+    margin-bottom: 21px;
 }

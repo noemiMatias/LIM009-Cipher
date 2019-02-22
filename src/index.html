@@ -6,17 +6,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Tu mensaje a buen recaudo</h1>
-      <img src="..//womanpower_logo.png" style="width:25%" alt="puño-women">
-      <blockquote><em>Cualquier momento del día o de la noche es bueno <br>
-        para decir basta y poner fin a una etapa de tu vida <br>
-        que hubieras deseado no vivir</em></blockquote>. </p>
-        </div>
-        <p>Ahora que decides hacer has click en un boton </p>
+    <h1>titulo</h1>
+    <form>
+      <div class="form-div">
+        <label for="number">eligir numero de desplazamiento </label>
+        <input type ="number"id="number" name="number" min="1" max="15">
+      </div>
+      <div class="form-div">
+        <label for="text1">Ingresa texto a cifrar</label>
+        <input type ="text" id="text1" name="text1" placeholder="ingresa tu texto" value="hola">
         <button  id="cifrar" type="button">cifrar mi mensaje</button>
-        <button id="decifrar" type="button">decifrar mensaje</button>
-    
+        <p id="text-cipher"></p>
+      </div>
+      <div class="form-div">
+        <label for="text2">Ingresa texto a decifrar</label>
+        <input type ="text" id="text2" name ="text2" placeholder="ingresa tu texto">
+        <button id="descifrar" type="button">decifrar mensaje</button>
+      </div>
+
+    </form>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

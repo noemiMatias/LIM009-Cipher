@@ -1,18 +1,16 @@
-#root{
-    background-color: pink;
+BODY{
+    background-color: aquamarine;
+}
+h1 {
+   
+    color: blueviolet;
     text-align: center;
-    font-size:45px;
-}
-p{
-    background-color: paleturquoise;
-    font-size: 20px;
-    font-weight: bold;
-}
-.logo{
-    
-}
+    font-size: 25PX;
+    font-family: cursive;
 
-.form-div {
-    margin-top: 21px;
-    margin-bottom: 21px;
+}
+#primer-mensaje{
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

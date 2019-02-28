@@ -27,4 +27,4 @@ descifrar.addEventListener("click",()=>{
 
 
 //const textoDecifrado= document.getElementById("text2");
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    m
+                                           

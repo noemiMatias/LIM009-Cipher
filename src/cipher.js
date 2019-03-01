@@ -1,10 +1,11 @@
 window.cipher = {
-  encode: (offset ,textCifrado1) => {
+  encode: (offset,texto-cifrar) => {
     /* Acá va tu código */
-    let cifrado=" ";
-    for(i =0;i<=textCifrado1.length-1;i++){
-    let desplazamiento = textCifrado1.charCodeAt(i);
-    if(desplazamiento  65<=90;)
+    let nuevoMensaje=" ";
+    for(i =0;i<=texto-cifrar.length;i++){
+      if(texto-cifrar[i])
+    
+    if(i=65<=90);
     console.log(encode);
 
   },

@@ -1,16 +1,28 @@
 BODY{
-    background-color: aquamarine;
+ background-image: url("https://i.pinimg.com/originals/d6/38/fe/d638fe6cdb6c54c5ce0b17c522769e95.jpg");  
+text-align: center;
+background-color: #cccccc;
+font-family: 'Srisakdi', cursive;
+font-family: 'Gloria Hallelujah', cursive;
 }
 h1 {
-   
-    color: blueviolet;
-    text-align: center;
-    font-size: 25PX;
-    font-family: cursive;
-
+color: rebeccapurple;
+text-align: center; 
+font-size: 500%;
+font-weight: bold;
 }
-#primer-mensaje{
-    text-align: center;
-    color: blueviolet;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+input[type=text] {
+    width: 75%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    
+}
+.boton{
+    border-bottom: inset;
+}
+.form-div{
+    margin: 3em 1em 3em 1em
 }

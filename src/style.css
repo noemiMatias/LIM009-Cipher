@@ -1,11 +1,28 @@
-#root{
-    background-color: pink;
-    text-align: center;
-    font-size:45px;
+BODY{
+ background-image: url("https://i.pinimg.com/originals/d6/38/fe/d638fe6cdb6c54c5ce0b17c522769e95.jpg");  
+text-align: center;
+background-color: #cccccc;
+font-family: 'Srisakdi', cursive;
+font-family: 'Gloria Hallelujah', cursive;
 }
-p{
-    background-color: paleturquoise
-    text-align: center;
-    font-size: 37px;
-    font-weight: bold;
+h1 {
+color: rebeccapurple;
+text-align: center; 
+font-size: 500%;
+font-weight: bold;
+}
+input[type=text] {
+    width: 75%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    
+}
+.boton{
+    border-bottom: inset;
+}
+.form-div{
+    margin: 3em 1em 3em 1em
 }

@@ -7,24 +7,24 @@
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Srisakdi" rel="stylesheet">
   </head>
   <body>
-    <h1>CODIGOFEM</h1>
-    <p id="primer-mensaje"><strong>Zona de cifrado y decifrado para nosotras.</strong></p>
-    <form>
-      <div class="form-div">
-        <label for="number">eligir numero de desplazamiento </label>
-        <input type ="number" id= "offset" />
-      </div>
-      <div class="form-div">
-        <label for="text1">Ingresa texto a cifrar</label>
-        <input type ="text" id="textoCifrar"  placeholder="ingresa tu texto" />
-        <button  id="botonCifrar" class="botonCifrar" type="button">cifrar mi mensaje</button>  
-      </div>
-      <div class="form-div">
-        <label for="text2">Ingresa texto a decifrar</label>
-        <input type ="text" id="textoDecifrado"  placeholder="ingresa tu texto"/>
-        <button id="botonDecifrar" class="botonDecifrar" type="button">decifrar mensaje</button>
-      </div>
-    </form>
+    <div class="pagina1" >
+      <h1>CODIGOFEM</h1>
+        <p id="primer-mensaje"><strong>Zona de cifrado y decifrado para nosotras.</strong></p>
+        <form>
+        <div class="form-div">
+          <label for="number">eligir numero de desplazamiento </label>
+          <input type ="number" id= "offset" />
+        </div>
+        <div class="form-div">
+          <input type ="text" id="textoCifrar"  placeholder="ingresa tu texto" />
+          <button  id="botonCifrar" class="boton Cifrar" type="button">cifrar mi mensaje</button>  
+        </div>
+        <div class="form-div">
+          <input type ="text" id="textoDecifrado"  placeholder="ingresa tu texto"/>
+          <button id="botonDecifrar" class="boton Decifrar" type="button">decifrar mensaje</button>
+          </div>
+        </form>
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

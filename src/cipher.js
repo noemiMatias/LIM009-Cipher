@@ -15,7 +15,7 @@ window.cipher = {
     let codigoAscii1;
     let resultadoDes="";
   
-    for(let i=0;i<entrada.length;i++){
+    for(let i = 0; i < entrada.length; i++){
     codigoAscii1=entrada[i].charCodeAt();
     resultadoDes+=String.fromCharCode((codigoAscii1-desplazamiento+65)%26+65);
     

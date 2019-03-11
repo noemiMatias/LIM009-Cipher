@@ -1,39 +1,25 @@
 BODY{
- background-image:url("https://previews.123rf.com/images/hakkiarslan/hakkiarslan1510/hakkiarslan151000066/47326471-estilo-grunge-abstracto-fondos-coloridos-splash-acuarela-imagen-de-fondo-ilustraci%C3%B3n-.jpg");  
-text-align: center;
-
-font-family: 'Srisakdi', cursive;
-font-family: 'Gloria Hallelujah', cursive;
-}
-h1 {
-color: rebeccapurple;
-text-align: center; 
-font-size: 500%;
-font-weight: bold;
-}
-
-input[type=text] {
-    width: 75%;
-    height: 100px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    background-color: #f8f8f8;
-    font-size: 16px;
+    background-image: url("https://previews.123rf.com/images/hakkiarslan/hakkiarslan1510/hakkiarslan151000066/47326471-estilo-grunge-abstracto-fondos-coloridos-splash-acuarela-imagen-de-fondo-ilustraci%C3%B3n-.jpg");
+    text-align: center;
+    background-color: #cccccc;
+    }
+    header {
+    color: rebeccapurple;
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 500%;
+    font-weight: bold;
+    font-family: 'Srisakdi', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    }
+    #caja1{
+       padding:30px;
+       font-family: cursive;
+       font-size: 18px;
+       font-weight: bold;
+       text-align: center;
     
-}
-.lista{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.boton{
-    border-bottom: inset;
-}
-.form-div{
-    margin: 3em 1em 3em 1em
-}
-
-.boton {
-    background: blueviolet;
-    border-radius: 30px;
-    height: 35px;
-    color: white;
-}
+    }
+    ul{
+       list-style: none;
+    }

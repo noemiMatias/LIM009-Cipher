@@ -1,5 +1,3 @@
-
-
 document.getElementById("page2").style.display="none";
 document.getElementById("page1").style.visibility="visible";
 
@@ -14,9 +12,7 @@ document.getElementById("botonCifrar").addEventListener("click",()=>{
      desplazamiento=parseInt(document.getElementById("offset").value);
     resultado=cipher.encode(entrada,desplazamiento);
    document.getElementById("textoDecifrado").value=resultado;
-
 })
-
 
 document.getElementById("botonDecifrar").addEventListener("click",()=>{
   entrada2= document.getElementById("textoDecifrado").value;
@@ -25,17 +21,4 @@ document.getElementById("botonDecifrar").addEventListener("click",()=>{
      document.getElementById("textoCifrar").value=resultadoDes ;
     
  })
-
-
-
-
-
-
-
-
-
-
-
-
-//const textoDecifrado= document.getElementById("text2");
                                            

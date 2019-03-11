@@ -6,58 +6,33 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Srisakdi" rel="stylesheet">
   </head>
-<<<<<<< HEAD
   <body>
-    <div class="pagina1" >
-      <h1>CODIGOFEM</h1>
-        <p id="primer-mensaje"><strong>Zona de cifrado y decifrado para nosotras.</strong></p>
-        <form>
-        <div class="form-div">
-          <label for="number">eligir numero de desplazamiento </label>
-          <input type ="number" id= "offset" />
+     <h1>CODIGOFEM</h1>
+     <div id="caja1" >
+        <p> Bienvenida a la zona Femenina , si estas pasando por un mal momento y deseas escribirle a alguien de manera muy confidencial, estas en el lugar indicado. 
+          A continuacion te explicaré como cifrar tus mensajes creando una "clave" que solo tu y el receptor del mensaje conoceran.
+          Usaremos el "Metodo Cifrado Cesar" un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+            Por ejemplo, si usamos un desplazamiento o numero de posiciones que queremos desplazarnos en el abecedario  y asi formar nuestro numero clave con el numero 3:
+            La letra A se cifraria como letra D.</p>
+            <h2>Pasos</h2>
+          <p class= "lista"> 
+             <ul>
+                <li>Elige numero de desplazamiento </li> .
+                <li>Escribe un mensaje que quieras cifrar</li>
+                <li> Veras tu resultado en la nueva cajita  </li> 
+                <li> Y si deseas descifrar un mensaje inserta el texto en la cajita  descifrar.</li>
+                <li> Ver el resultado del "mensaje cifrado".</li>
+                <p>¡PRUEBALO!</p> 
+              </ul>
+          </p> 
         </div>
-        <div class="form-div">
-          <input type ="text" id="textoCifrar"  placeholder="ingresa tu texto" />
-          <button  id="botonCifrar" class="boton Cifrar" type="button">cifrar mi mensaje</button>  
-        </div>
-        <div class="form-div">
-          <input type ="text" id="textoDecifrado"  placeholder="ingresa tu texto"/>
-          <button id="botonDecifrar" class="boton Decifrar" type="button">decifrar mensaje</button>
-          </div>
-        </form>
-=======
-  <body >
-    <div class="page1">
-    <h1>CODIGOFEM</h1>
-    <p id="primer-mensaje"><strong>Zona de cifrado y decifrado para nosotras.</strong></p>
-    <form>
-        <label for="number">eligir numero de desplazamiento </label>
-        <input type ="number" id= "offset" />
-        <p class="instrucciones" > ¿COMO SE UTILIZA? </p>
-        <p class= "lista"> 
-          <ol>
-              <li><strong>Elige numero de posiciones que queremos desplazarnos en el abecedario y asi formar nuestro numero de clave</li> .
-              <li>Escribe un mensaje (texto) que quieras cifrar</li>
-              <li> Veras tu resultado donde en la cajita lista para decifrar.</li> 
-              <li> Insertar un mensaje (texto) en descifrar.</li>
-              <li> Ver el resultado del "mensaje cifrado".</li>
-             ¡PRUEBALO!</strong>
-         </ol>
-        </p>  
+      <div id="cipher-page">
+        <input type="number" id="offset" class="offset"><br>
+        <textarea name="textarea" id="texto1" class="caja-Texto" rows="10" cols="50" placeholder="Escribe aqui"></textarea>
+        <button  id="boton-cifrar" class="botonCifrar" type="button">cifrar mi mensaje</button>
+        <textarea name="textarea" id="texto2" class="caja-texto" rows="10" cols="50" placeholder="Escribe aqui"></textarea>
+        <button id="boton-descifrar" class="botonDescifrar" type="button">descifrar mensaje</button>
       </div>
-      <div class="page2">
-      <div class="form-div">
-        <input type ="text" id="textoCifrar"  placeholder="ingresa tu texto" />
-        <button  id="botonCifrar" class="botonCifrar" type="button">cifrar mi mensaje</button>
-      <div class="form-div"> 
-        <input type ="text" id="textoDecifrado"  placeholder="ingresa tu texto"/>
-        <button id="botonDecifrar" class="botonDecifrar" type="button">decifrar mensaje</button>
-        
-      </div>
-
-    </form>
->>>>>>> e5d9061283c02d24ee0575ca3c109494862330a4
-    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

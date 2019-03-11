@@ -3,15 +3,17 @@ BODY{
     text-align: center;
     background-color: #cccccc;
     }
+
     header {
     color: rebeccapurple;
     background-color: palevioletred;
     text-align: center;
-    font-size: 500%;
+    font-size: 250%;
     font-weight: bold;
-    font-family: 'Srisakdi', cursive;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Patrick Hand', cursive;
+    padding: 10;
     }
+
     #caja1{
        padding:30px;
        font-family: cursive;
@@ -20,6 +22,7 @@ BODY{
        text-align: center;
     
     }
+
     ul{
        list-style: none;
     }

@@ -5,7 +5,7 @@ window.cipher = {
 
   for(let i=0;i<entrada.length;i++){
   codigoAscii=entrada[i].charCodeAt();
-  resultado+=String.fromCharCode((codigoAscii-65+offset)%26+65);
+  resultado+=String.fromCharCode((codigoAscii-65+desplazamiento)%26+65);
   
 }
  return resultado;

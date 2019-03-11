@@ -1,7 +1,7 @@
 BODY{
- background-image: url("https://i.pinimg.com/originals/d6/38/fe/d638fe6cdb6c54c5ce0b17c522769e95.jpg");  
+ background-image:url("https://previews.123rf.com/images/hakkiarslan/hakkiarslan1510/hakkiarslan151000066/47326471-estilo-grunge-abstracto-fondos-coloridos-splash-acuarela-imagen-de-fondo-ilustraci%C3%B3n-.jpg");  
 text-align: center;
-background-color: #cccccc;
+
 font-family: 'Srisakdi', cursive;
 font-family: 'Gloria Hallelujah', cursive;
 }
@@ -11,6 +11,7 @@ text-align: center;
 font-size: 500%;
 font-weight: bold;
 }
+
 input[type=text] {
     width: 75%;
     height: 100px;
@@ -19,6 +20,9 @@ input[type=text] {
     background-color: #f8f8f8;
     font-size: 16px;
     
+}
+.lista{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .boton{
     border-bottom: inset;
